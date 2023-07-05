@@ -1,7 +1,7 @@
 const toQueryString = require('./toQueryString');
 
 describe('toQueryString', () => {
-  it('should return hello', () => {
-    expect(toQueryString()).toBe('hello');
+  it("{ foo: 1, bar: 2 } should return 'foo=1&bar=2'", () => {
+    expect(toQueryString({ foo: 1, bar: 2 })).toBe('foo=1&bar=2');
   });
 });

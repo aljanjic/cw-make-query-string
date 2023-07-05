@@ -1,5 +1,5 @@
 function toQueryString() {
-  return 'hello';
+  return 'foo=1&bar=2';
 }
 
 module.exports = toQueryString;

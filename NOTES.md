@@ -46,3 +46,7 @@ Note: require has been disabled.
 - ✅ DONE
 
 ## Plans
+
+- ⚠ "{ foo: 1, bar: 2 } should return 'foo=1&bar=2'"
+- ⚠ "{foo: [ 1, 3 ], bar: [ 2, 4 ]} should return 'foo=1&foo=3&bar=2&bar=4'"
+- ⚠ "{ a: 'Z', b: 'Y', c: 'X', d: 'W', e: 'V', f: 'U', g: 'T' } should return 'a=Z&b=Y&c=X&d=W&e=V&f=U&g=T'"
