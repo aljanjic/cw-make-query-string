@@ -16,4 +16,22 @@ function toQueryString(obj) {
   return queryString.join('&');
 }
 
+// export const toQueryString = (obj: Record<string, any>): string => {
+//   let queryString: string[] = [];
+ 
+//   for(let prop in obj){
+//     if(Array.isArray(obj[prop])){
+//       for (let i = 0; i < obj[prop].length; i++){
+//         queryString.push(`${prop}=${obj[prop][i]}`)
+//       }
+//     }else{
+//       queryString.push(`${prop}=${obj[prop]}`)
+//     }
+
+//   }
+
+//   return queryString.join('&');
+// };
+
+
 module.exports = toQueryString;
